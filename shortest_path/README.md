@@ -12,3 +12,16 @@ In essence, we need to satisfy the following constraints:
 In the example provided here, we must help a knight get back to his castle while moving as efficiently as possible in an enchanted forest, as shown below
 
 ![SP_original](https://github.com/alessandroBombelli/from_theORy_to_application/blob/main/shortest_path/SP.png)
+
+Running our code, we will find that the knight must face, in sequence
+
+Cat warrior
+Friendly wizard
+Regular bridge
+Cozy tavern
+Tired ogre
+
+on his way to the castle, with the shortest path shown below
+
+![SP_original](https://github.com/alessandroBombelli/from_theORy_to_application/blob/main/shortest_path/SP_2.png)
+
