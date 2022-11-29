@@ -6,3 +6,7 @@ In our example, we deal with a horizontal problem with bins having a specific le
 
 We have a set of 9 identical bins with $\overline{L_b}=15$ and $\overline{W_b}=12$. In addition, our set of items contains 9 items with teh following $\left[L_i,W_i\right]$ values: $\mathcal{I}= \\{[5,3],[3,3],[5,4],[2,9],[4,9],[6,4],[5,5],[6,3],[5,3]\\}$. By running run our OR model, we can find out that we only need one bin, as there is a packing strategy that allows us to have all 9 items perfectly fit! See below:
 
+![2D_BPP](https://github.com/alessandroBombelli/from_theORy_to_application/blob/main/bin_packing/bin_0.png)
+
+
+
