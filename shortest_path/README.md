@@ -11,4 +11,4 @@ In essence, we need to satisfy the following constraints:
 
 In the example provided here, we must help a knight get back to his castle while moving as efficiently as possible in an enchanted forest, as shown below
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![SP_original](https://github.com/alessandroBombelli/from_theORy_to_application/blob/main/shortest_path/SP.png)
