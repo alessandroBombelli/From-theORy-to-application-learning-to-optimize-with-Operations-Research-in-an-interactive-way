@@ -15,11 +15,11 @@ In the example provided here, we must help a knight get back to his castle while
 
 Running our code, we will find that the knight must face, in sequence
 
-Cat warrior
-Friendly wizard
-Regular bridge
-Cozy tavern
-Tired ogre
+- Cat warrior
+- Friendly wizard
+- Regular bridge
+- Cozy tavern
+- Tired ogre
 
 on his way to the castle, with the shortest path shown below
 
