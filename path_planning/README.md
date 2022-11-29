@@ -13,6 +13,6 @@ If we want to make the problem more challenging, we can add this constraint as w
 
 Eventually, our goal is to be able to compute a path planning solution like this one
 
-![grab-landing-page](https://github.com/alessandroBombelli/from_theORy_to_application/blob/main/path_planning/mygif.gif)
+![](https://github.com/alessandroBombelli/from_theORy_to_application/blob/main/path_planning/mygif.gif)
 
 
