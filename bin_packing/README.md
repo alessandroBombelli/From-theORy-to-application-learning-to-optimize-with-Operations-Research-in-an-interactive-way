@@ -4,7 +4,7 @@ Bin-packing problems depend heavily on the geometry of the problem. They can be 
 
 In our example, we deal with a horizontal problem with bins having a specific length $\overline{L_b}$ and width $\overline{W_b}$, and each item having a specific length $L_i$ and width $W_i$. We can even rotate each item by 90 degrees (hence, switching the nominal length and width) if that is most efficient for the final solution.
 
-We have a set of 9 identical bins with $\overline{L_b}=15$ and $\overline{W_b}=12$. In addition, our set of items contains 9 items with teh following $\left[L_i,W_i\right]$ values: $\mathcal{I}= \\{[5,3],[3,3],[5,4],[2,9],[4,9],[6,4],[5,5],[6,3],[5,3]\\}$. By running run our OR model, we can find out that we only need one bin, as there is a packing strategy that allows us to have all 9 items perfectly fit! See below:
+We have a set of 9 identical bins with $\overline{L_b}=15$ and $\overline{W_b}=12$. In addition, our set of items contains 9 items with the following $\left[L_i,W_i\right]$ values: $\mathcal{I}= \\{0:[5,3],1:[3,3],2:[5,4],3:[2,9],4:[4,9],5:[6,4],6:[5,5],7:[6,3],8:[5,3]\\}$. By running run our OR model, we can find out that we only need one bin, as there is a packing strategy that allows us to have all 9 items perfectly fit! See below:
 
 ![2D_BPP](https://github.com/alessandroBombelli/from_theORy_to_application/blob/main/bin_packing/bin_0.png)
 
