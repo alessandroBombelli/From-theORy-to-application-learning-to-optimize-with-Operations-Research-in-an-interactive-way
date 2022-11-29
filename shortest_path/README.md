@@ -10,3 +10,5 @@ In essence, we need to satisfy the following constraints:
 - in every other node, conservation node must be enforced (if the commodity arrives to a node, then the commodity must leave the node as well)
 
 In the example provided here, we must help a knight get back to his castle while moving as efficiently as possible in an enchanted forest, as shown below
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
