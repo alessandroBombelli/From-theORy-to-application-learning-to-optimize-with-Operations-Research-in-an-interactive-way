@@ -92,7 +92,6 @@ model.z = Var(model.Bins, within=Binary)
 model.obj = Objective(expr=sum(model.C_b[b]*model.z[b] for b in model.Bins), sense=minimize)
 
 # Define constraints
-
 model.no_overlap = ConstraintList()
 for i in model.Items:
     for j in model.Items:
@@ -144,6 +143,11 @@ for i in model.Items:
     for d1 in model.XY:
         model.r2.add(sum(model.r[i,d2,d1] for d2 in model.XY)==1)
         
+model.no_rotation = ConstraintList()
+for i in model.Items:
+    if I[i]['rotation'] == 'N':
+        model.no_rotation.add(model.r[i,1,1]==1)
+        
 model.item_assignment = ConstraintList()
 for i in model.Items:
     model.item_assignment.add(sum(model.p[i,b] for b in B_i[i])==1)
@@ -153,16 +157,16 @@ for i in model.Items:
     for b in B_i[i]:
         model.bin_activation.add(model.p[i,b]<=model.z[b])
         
+model.item_incomp = ConstraintList()
+for pair in I_inc:
+    for b in list(set(B_i[pair[0]]) & set(B_i[pair[1]])):
+        model.item_incomp.add(model.p[pair[0],b]+model.p[pair[1],b]<=1)
+        
 model.symmetry_breaking = ConstraintList()
 for t,v in B_t.items():
     for b in range(0,len(v)-1):
         model.symmetry_breaking.add(model.z[v[b+1]]<=model.z[v[b]])
         
-model.item_incomp = ConstraintList()
-for pair in I_inc:
-    for b in list(set(B_i[pair[0]]) & set(B_i[pair[1]])):
-        model.item_incomp.add(model.p[pair[0],b]+model.p[pair[1],b]<=1)
-
 # Solve the problem
 solver = SolverFactory('gurobi')
 solver.solve(model)  
