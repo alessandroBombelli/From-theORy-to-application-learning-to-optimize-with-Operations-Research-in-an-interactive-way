@@ -2,9 +2,9 @@
 
 This repository contains the main outcomes of an Open Education Stimulation Fund Project (https://www.tudelft.nl/en/open-science/funding/awarded-projects/open-education-stimulation-fund-2022) funded by the Tu Delft Library. It contains:
 
-- a pdf and LaTeX source files of the book "From theORy to application: learning to optimize with Operations Research in an interactive way", where several topics revolving around Operations Research (OR) are explained
-- worked-out coded examples that are linked to some of the examples showcased in the book (folder **Book**)
-- three serious game versions of three mathematical models presented in thebook, i.e., games that are based on the same mathematical principles of the models. This is done to further engage students and users
+- a pdf and LaTeX source files of the book "From theORy to application: learning to optimize with Operations Research in an interactive way", where several topics revolving around Operations Research (OR) are explained (folder **Books**)
+- worked-out coded examples that are linked to some of the examples showcased in the book (folder **Codes**)
+- three serious game versions of three mathematical models presented in thebook, i.e., games that are based on the same mathematical principles of the models. This is done to further engage students and users (folder **Serious Games**)
 
 The target audience is people with limited knowledge of OR. Hence, we try to engage users with interesting examples and relate them to practical problems
 to show the potential (or at least the tip of the iceberg) of OR modeling. This repository is about translating OR problems into OR models and, as such, does not contain algorithmic-oriented examples
