@@ -1,4 +1,4 @@
-# from_theORy_to_application
+# From theORy to application: learning to optimize with Operations Research in an interactive way
 
 This repository contains folly worked-out examples of several Operations Research (OR) problems, such as shortest path, vehicle routing, bin-packing problems. 
 Each problem is briefly introduced and the basics of the underlying mathematical formulation are provided. Then, such formulation is translated into a 
