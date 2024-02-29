@@ -1,5 +1,7 @@
 # From theORy to application: learning to optimize with Operations Research in an interactive way
 
+This repository contains the main outcomes of an Open Education Stimulation Fund Project (https://www.tudelft.nl/en/open-science/funding/awarded-projects/open-education-stimulation-fund-2022) funded by the Tu Delft Library
+
 This repository contains folly worked-out examples of several Operations Research (OR) problems, such as shortest path, vehicle routing, bin-packing problems. 
 Each problem is briefly introduced and the basics of the underlying mathematical formulation are provided. Then, such formulation is translated into a 
 Python code that sets up the problem and solves it using either the commercial solver Gurobi (https://www.gurobi.com/. To use Gurobi, a license is needed, which is 
