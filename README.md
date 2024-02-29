@@ -4,12 +4,7 @@ This repository contains the main outcomes of an Open Education Stimulation Fund
 
 - a pdf and LaTeX source files of the book "From theORy to application: learning to optimize with Operations Research in an interactive way", where several topics revolving around Operations Research (OR) are explained
 - worked-out coded examples that are linked to some of the examples showcased in the book
-- 
-
-This repository contains folly worked-out examples of several Operations Research (OR) problems, such as shortest path, vehicle routing, bin-packing problems. 
-Each problem is briefly introduced and the basics of the underlying mathematical formulation are provided. Then, such formulation is translated into a 
-Python code that sets up the problem and solves it using either the commercial solver Gurobi (https://www.gurobi.com/. To use Gurobi, a license is needed, which is 
-free (academic version) for students and all interested users affiliated to a university) or an open-source solver via implementation with PuLP (https://coin-or.github.io/pulp/). While the first option is always given due to the expertise and preferred coding routing of the authors, the second option is provided when possible to enhance the open-source dissemination of the repository.
+- three serious game versions of three mathematical models presented in thebook, i.e., games that are based on the same mathematical principles of the models. This is done to further engage students and users
 
 The target audience is people with limited knowledge of OR. Hence, we try to engage users with interesting examples and relate them to practical problems
 to show the potential (or at least the tip of the iceberg) of OR modeling. All OR problems are solved with Branch and Bound with default settings, 
