@@ -16,6 +16,6 @@ Thanks for stopping by!
 The team of contributors:
  - Alessandro Bombelli (a.bombelli@tudelft.nl)
  - Bilge Atasoy (b.atasoy@tudeflt.nl)
- - - Stefano Fazi (s.fazi@tudelft.nl)
+ - Stefano Fazi (s.fazi@tudelft.nl)
  - Doris Boschma ( dorisboschma@gmail.com)
  
