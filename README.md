@@ -1,6 +1,6 @@
 # From theORy to application: learning to optimize with Operations Research in an interactive way
 
-This repository contains the main outcomes of an Open Education Stimulation Fund Project (https://www.tudelft.nl/en/open-science/funding/awarded-projects/open-education-stimulation-fund-2022) funded by the Tu Delft Library. It contains:
+This repository contains the main outcomes of an Open Education Stimulation Fund Project (https://www.tudelft.nl/en/open-science/funding/awarded-projects/open-education-stimulation-fund-2022) funded by the TU Delft Library. It contains:
 
 - a pdf and LaTeX source files of the book "From theORy to application: learning to optimize with Operations Research in an interactive way", where several topics revolving around Operations Research (OR) are explained (folder **Books**)
 - worked-out coded examples that are linked to some of the examples showcased in the book (folder **Codes**)
